@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Shantell+Sans:ital,wght@0,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+}
+
+.heading{
+    /* position: relative; */
+    /* z-index: -1; */
+    font-family: 'Shantell Sans', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 10px;
+    color: rgb(244, 50, 50);
+    animation: lol 2s linear infinite;
+}
+
+@keyframes lol {
+    10%{color: rgb(255, 104, 104);
+        
+    }
+    20%{color: rgb(255, 252, 104);
+        
+    }
+    30%{color: rgb(51, 242, 58);
+        
+    }
+    40%{color: rgb(104, 247, 255);
+        
+    }
+    50%{color: rgb(104, 162, 255);
+        
+    }
+    60%{color: rgb(75, 70, 228);
+        
+    }
+    70%{color: rgb(210, 104, 255);
+        
+    }
+    80%{color: rgb(237, 26, 233);
+        
+    }
+    90%{color: rgb(232, 15, 30);
+    
+    }
+    100%{color: rgb(239, 15, 15);
+        
+    }
+    
+}
+H5{
+    font-family: 'Shantell Sans', cursive;
+    color: rgb(244, 50, 50);
+    animation: lol 10s ease-in-out infinite;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid white;
+    box-shadow: 0 0 50px wheat;
+}
+
+.divv {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 0px;
+}
+
+.box {
+    margin: .5px;
+    width: 75px;
+    height: 75px;
+}
+
+#tog {
+    font-family: 'Shantell Sans', cursive;
+    margin: 10px 0px;
+    color: aliceblue;
+    letter-spacing: 9px;
+}
+
+
+
+.allimg {
+    width: 45px;
+    position: relative;
+    bottom: 5px;
+}
+
+.allpawn {
+    transform: scale(.7);
+}
+
+.authcont {
+    width: 100vw;
+}
+
+.author {
+    float: right;
+    margin-right: 50px;
+    color: aliceblue;
+
+}
+
+
+@media (max-width:650px){
+
+    #tog {
+        margin-bottom: 70px;
+
+    }
+
+    .box {
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .allimg {
+        width: 7vw;
+    }
+}
